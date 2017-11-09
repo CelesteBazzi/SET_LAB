@@ -1,0 +1,2138 @@
+execve("./udp_ping", ["./udp_ping", "127.0.0.1", "3000", "100"], [/* 64 vars */]) = 0
+brk(NULL)                               = 0x2049000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbb03fcf000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=118104, ...}) = 0
+mmap(NULL, 118104, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fbb03fb2000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/librt.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0!\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=31712, ...}) = 0
+mmap(NULL, 2128832, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fbb03ba4000
+mprotect(0x7fbb03bab000, 2093056, PROT_NONE) = 0
+mmap(0x7fbb03daa000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7fbb03daa000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1868984, ...}) = 0
+mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fbb037da000
+mprotect(0x7fbb0399a000, 2097152, PROT_NONE) = 0
+mmap(0x7fbb03b9a000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c0000) = 0x7fbb03b9a000
+mmap(0x7fbb03ba0000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fbb03ba0000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260`\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=138696, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbb03fb1000
+mmap(NULL, 2212904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fbb035bd000
+mprotect(0x7fbb035d5000, 2093056, PROT_NONE) = 0
+mmap(0x7fbb037d4000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7fbb037d4000
+mmap(0x7fbb037d6000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fbb037d6000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbb03fb0000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbb03faf000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbb03fae000
+arch_prctl(ARCH_SET_FS, 0x7fbb03faf700) = 0
+mprotect(0x7fbb03b9a000, 16384, PROT_READ) = 0
+mprotect(0x7fbb037d4000, 4096, PROT_READ) = 0
+mprotect(0x7fbb03daa000, 4096, PROT_READ) = 0
+mprotect(0x602000, 4096, PROT_READ)     = 0
+mprotect(0x7fbb03fd1000, 4096, PROT_READ) = 0
+munmap(0x7fbb03fb2000, 118104)          = 0
+set_tid_address(0x7fbb03faf9d0)         = 12819
+set_robust_list(0x7fbb03faf9e0, 24)     = 0
+rt_sigaction(SIGRTMIN, {0x7fbb035c2b50, [], SA_RESTORER|SA_SIGINFO, 0x7fbb035ce390}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {0x7fbb035c2be0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7fbb035ce390}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+brk(NULL)                               = 0x2049000
+brk(0x206a000)                          = 0x206a000
+fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 0), ...}) = 0
+write(1, "UDP Ping trying to connect to se"..., 76UDP Ping trying to connect to server 127.0.0.1 (127.0.0.1) on TCP port 3000
+) = 76
+socket(PF_INET, SOCK_STREAM, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(3000), sin_addr=inet_addr("127.0.0.1")}, 16) = 0
+write(1, " ... connected to Pong server: a"..., 85 ... connected to Pong server: asking for 501 repetitions of 100 _bytes UDP messages
+) = 85
+write(3, "UDP 100 501\n", 12)           = 12
+read(3, "OK 62831\n", 10)               = 9
+write(1, "answer: OK 62831\n", 17answer: OK 62831
+)      = 17
+write(1, " ... Pong server agreed to ping-"..., 58 ... Pong server agreed to ping-pong using port 62831 :-)
+) = 58
+shutdown(3, SHUT_RDWR)                  = 0
+close(3)                                = 0
+socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP) = 3
+fcntl(3, F_SETFD, 0x800 /* FD_??? */)   = 0
+connect(3, {sa_family=AF_INET, sin_port=htons(62831), sin_addr=inet_addr("127.0.0.1")}, 16) = 0
+sendto(3, "1\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "1\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.444 milli"..., 56Round trip time was  0.444 milliseconds in repetition 1
+) = 56
+sendto(3, "2\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "2\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.479 milli"..., 56Round trip time was  0.479 milliseconds in repetition 2
+) = 56
+sendto(3, "3\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "3\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.913 milli"..., 56Round trip time was  0.913 milliseconds in repetition 3
+) = 56
+sendto(3, "4\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "4\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.473 milli"..., 56Round trip time was  0.473 milliseconds in repetition 4
+) = 56
+sendto(3, "5\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "5\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.442 milli"..., 56Round trip time was  0.442 milliseconds in repetition 5
+) = 56
+sendto(3, "6\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "6\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.363 milli"..., 56Round trip time was  0.363 milliseconds in repetition 6
+) = 56
+sendto(3, "7\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "7\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.357 milli"..., 56Round trip time was  0.357 milliseconds in repetition 7
+) = 56
+sendto(3, "8\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "8\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.450 milli"..., 56Round trip time was  0.450 milliseconds in repetition 8
+) = 56
+sendto(3, "9\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "9\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.432 milli"..., 56Round trip time was  0.432 milliseconds in repetition 9
+) = 56
+sendto(3, "10\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "10\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.379 milli"..., 57Round trip time was  0.379 milliseconds in repetition 10
+) = 57
+sendto(3, "11\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "11\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.434 milli"..., 57Round trip time was  0.434 milliseconds in repetition 11
+) = 57
+sendto(3, "12\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "12\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.411 milli"..., 57Round trip time was  0.411 milliseconds in repetition 12
+) = 57
+sendto(3, "13\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "13\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.371 milli"..., 57Round trip time was  0.371 milliseconds in repetition 13
+) = 57
+sendto(3, "14\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "14\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.358 milli"..., 57Round trip time was  0.358 milliseconds in repetition 14
+) = 57
+sendto(3, "15\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "15\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.356 milli"..., 57Round trip time was  0.356 milliseconds in repetition 15
+) = 57
+sendto(3, "16\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "16\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.386 milli"..., 57Round trip time was  0.386 milliseconds in repetition 16
+) = 57
+sendto(3, "17\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "17\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.366 milli"..., 57Round trip time was  0.366 milliseconds in repetition 17
+) = 57
+sendto(3, "18\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "18\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.350 milli"..., 57Round trip time was  0.350 milliseconds in repetition 18
+) = 57
+sendto(3, "19\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "19\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.427 milli"..., 57Round trip time was  0.427 milliseconds in repetition 19
+) = 57
+sendto(3, "20\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "20\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.355 milli"..., 57Round trip time was  0.355 milliseconds in repetition 20
+) = 57
+sendto(3, "21\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "21\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.408 milli"..., 57Round trip time was  0.408 milliseconds in repetition 21
+) = 57
+sendto(3, "22\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "22\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.418 milli"..., 57Round trip time was  0.418 milliseconds in repetition 22
+) = 57
+sendto(3, "23\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "23\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.411 milli"..., 57Round trip time was  0.411 milliseconds in repetition 23
+) = 57
+sendto(3, "24\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "24\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.414 milli"..., 57Round trip time was  0.414 milliseconds in repetition 24
+) = 57
+sendto(3, "25\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "25\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.516 milli"..., 57Round trip time was  0.516 milliseconds in repetition 25
+) = 57
+sendto(3, "26\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "26\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.493 milli"..., 57Round trip time was  0.493 milliseconds in repetition 26
+) = 57
+sendto(3, "27\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "27\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.423 milli"..., 57Round trip time was  0.423 milliseconds in repetition 27
+) = 57
+sendto(3, "28\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "28\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.416 milli"..., 57Round trip time was  0.416 milliseconds in repetition 28
+) = 57
+sendto(3, "29\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "29\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.425 milli"..., 57Round trip time was  0.425 milliseconds in repetition 29
+) = 57
+sendto(3, "30\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "30\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.395 milli"..., 57Round trip time was  0.395 milliseconds in repetition 30
+) = 57
+sendto(3, "31\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "31\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.244 milli"..., 57Round trip time was  0.244 milliseconds in repetition 31
+) = 57
+sendto(3, "32\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "32\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.238 milli"..., 57Round trip time was  0.238 milliseconds in repetition 32
+) = 57
+sendto(3, "33\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "33\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.234 milli"..., 57Round trip time was  0.234 milliseconds in repetition 33
+) = 57
+sendto(3, "34\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "34\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.233 milli"..., 57Round trip time was  0.233 milliseconds in repetition 34
+) = 57
+sendto(3, "35\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "35\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.230 milli"..., 57Round trip time was  0.230 milliseconds in repetition 35
+) = 57
+sendto(3, "36\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "36\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.260 milli"..., 57Round trip time was  0.260 milliseconds in repetition 36
+) = 57
+sendto(3, "37\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "37\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was 10.063 milli"..., 57Round trip time was 10.063 milliseconds in repetition 37
+) = 57
+sendto(3, "38\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "38\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.166 milli"..., 57Round trip time was  0.166 milliseconds in repetition 38
+) = 57
+sendto(3, "39\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "39\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.120 milli"..., 57Round trip time was  0.120 milliseconds in repetition 39
+) = 57
+sendto(3, "40\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "40\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.137 milli"..., 57Round trip time was  0.137 milliseconds in repetition 40
+) = 57
+sendto(3, "41\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "41\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.117 milli"..., 57Round trip time was  0.117 milliseconds in repetition 41
+) = 57
+sendto(3, "42\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "42\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.119 milli"..., 57Round trip time was  0.119 milliseconds in repetition 42
+) = 57
+sendto(3, "43\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "43\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.121 milli"..., 57Round trip time was  0.121 milliseconds in repetition 43
+) = 57
+sendto(3, "44\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "44\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.121 milli"..., 57Round trip time was  0.121 milliseconds in repetition 44
+) = 57
+sendto(3, "45\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "45\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.252 milli"..., 57Round trip time was  0.252 milliseconds in repetition 45
+) = 57
+sendto(3, "46\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "46\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.121 milli"..., 57Round trip time was  0.121 milliseconds in repetition 46
+) = 57
+sendto(3, "47\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "47\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.162 milli"..., 57Round trip time was  0.162 milliseconds in repetition 47
+) = 57
+sendto(3, "48\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "48\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.141 milli"..., 57Round trip time was  0.141 milliseconds in repetition 48
+) = 57
+sendto(3, "49\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "49\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.141 milli"..., 57Round trip time was  0.141 milliseconds in repetition 49
+) = 57
+sendto(3, "50\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "50\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.149 milli"..., 57Round trip time was  0.149 milliseconds in repetition 50
+) = 57
+sendto(3, "51\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "51\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.140 milli"..., 57Round trip time was  0.140 milliseconds in repetition 51
+) = 57
+sendto(3, "52\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "52\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.155 milli"..., 57Round trip time was  0.155 milliseconds in repetition 52
+) = 57
+sendto(3, "53\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "53\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.141 milli"..., 57Round trip time was  0.141 milliseconds in repetition 53
+) = 57
+sendto(3, "54\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "54\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.121 milli"..., 57Round trip time was  0.121 milliseconds in repetition 54
+) = 57
+sendto(3, "55\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "55\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.113 milli"..., 57Round trip time was  0.113 milliseconds in repetition 55
+) = 57
+sendto(3, "56\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "56\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.109 milli"..., 57Round trip time was  0.109 milliseconds in repetition 56
+) = 57
+sendto(3, "57\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "57\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.109 milli"..., 57Round trip time was  0.109 milliseconds in repetition 57
+) = 57
+sendto(3, "58\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "58\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.099 milli"..., 57Round trip time was  0.099 milliseconds in repetition 58
+) = 57
+sendto(3, "59\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "59\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.094 milli"..., 57Round trip time was  0.094 milliseconds in repetition 59
+) = 57
+sendto(3, "60\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "60\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.074 milli"..., 57Round trip time was  0.074 milliseconds in repetition 60
+) = 57
+sendto(3, "61\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "61\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.094 milli"..., 57Round trip time was  0.094 milliseconds in repetition 61
+) = 57
+sendto(3, "62\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "62\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.099 milli"..., 57Round trip time was  0.099 milliseconds in repetition 62
+) = 57
+sendto(3, "63\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "63\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.105 milli"..., 57Round trip time was  0.105 milliseconds in repetition 63
+) = 57
+sendto(3, "64\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "64\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.082 milli"..., 57Round trip time was  0.082 milliseconds in repetition 64
+) = 57
+sendto(3, "65\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "65\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.075 milli"..., 57Round trip time was  0.075 milliseconds in repetition 65
+) = 57
+sendto(3, "66\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "66\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.075 milli"..., 57Round trip time was  0.075 milliseconds in repetition 66
+) = 57
+sendto(3, "67\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "67\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.084 milli"..., 57Round trip time was  0.084 milliseconds in repetition 67
+) = 57
+sendto(3, "68\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "68\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.086 milli"..., 57Round trip time was  0.086 milliseconds in repetition 68
+) = 57
+sendto(3, "69\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "69\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.064 milli"..., 57Round trip time was  0.064 milliseconds in repetition 69
+) = 57
+sendto(3, "70\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "70\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.075 milli"..., 57Round trip time was  0.075 milliseconds in repetition 70
+) = 57
+sendto(3, "71\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "71\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.078 milli"..., 57Round trip time was  0.078 milliseconds in repetition 71
+) = 57
+sendto(3, "72\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "72\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.085 milli"..., 57Round trip time was  0.085 milliseconds in repetition 72
+) = 57
+sendto(3, "73\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "73\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.076 milli"..., 57Round trip time was  0.076 milliseconds in repetition 73
+) = 57
+sendto(3, "74\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "74\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.071 milli"..., 57Round trip time was  0.071 milliseconds in repetition 74
+) = 57
+sendto(3, "75\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "75\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.075 milli"..., 57Round trip time was  0.075 milliseconds in repetition 75
+) = 57
+sendto(3, "76\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "76\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.137 milli"..., 57Round trip time was  0.137 milliseconds in repetition 76
+) = 57
+sendto(3, "77\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "77\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.080 milli"..., 57Round trip time was  0.080 milliseconds in repetition 77
+) = 57
+sendto(3, "78\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "78\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.069 milli"..., 57Round trip time was  0.069 milliseconds in repetition 78
+) = 57
+sendto(3, "79\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "79\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.080 milli"..., 57Round trip time was  0.080 milliseconds in repetition 79
+) = 57
+sendto(3, "80\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "80\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.064 milli"..., 57Round trip time was  0.064 milliseconds in repetition 80
+) = 57
+sendto(3, "81\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "81\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.066 milli"..., 57Round trip time was  0.066 milliseconds in repetition 81
+) = 57
+sendto(3, "82\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "82\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.082 milli"..., 57Round trip time was  0.082 milliseconds in repetition 82
+) = 57
+sendto(3, "83\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "83\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.071 milli"..., 57Round trip time was  0.071 milliseconds in repetition 83
+) = 57
+sendto(3, "84\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "84\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.073 milli"..., 57Round trip time was  0.073 milliseconds in repetition 84
+) = 57
+sendto(3, "85\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "85\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.070 milli"..., 57Round trip time was  0.070 milliseconds in repetition 85
+) = 57
+sendto(3, "86\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "86\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.068 milli"..., 57Round trip time was  0.068 milliseconds in repetition 86
+) = 57
+sendto(3, "87\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "87\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.069 milli"..., 57Round trip time was  0.069 milliseconds in repetition 87
+) = 57
+sendto(3, "88\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "88\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.089 milli"..., 57Round trip time was  0.089 milliseconds in repetition 88
+) = 57
+sendto(3, "89\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "89\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.067 milli"..., 57Round trip time was  0.067 milliseconds in repetition 89
+) = 57
+sendto(3, "90\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "90\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.070 milli"..., 57Round trip time was  0.070 milliseconds in repetition 90
+) = 57
+sendto(3, "91\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "91\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.071 milli"..., 57Round trip time was  0.071 milliseconds in repetition 91
+) = 57
+sendto(3, "92\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "92\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.087 milli"..., 57Round trip time was  0.087 milliseconds in repetition 92
+) = 57
+sendto(3, "93\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "93\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.069 milli"..., 57Round trip time was  0.069 milliseconds in repetition 93
+) = 57
+sendto(3, "94\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "94\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.073 milli"..., 57Round trip time was  0.073 milliseconds in repetition 94
+) = 57
+sendto(3, "95\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "95\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.060 milli"..., 57Round trip time was  0.060 milliseconds in repetition 95
+) = 57
+sendto(3, "96\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "96\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.058 milli"..., 57Round trip time was  0.058 milliseconds in repetition 96
+) = 57
+sendto(3, "97\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "97\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.057 milli"..., 57Round trip time was  0.057 milliseconds in repetition 97
+) = 57
+sendto(3, "98\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "98\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.099 milli"..., 57Round trip time was  0.099 milliseconds in repetition 98
+) = 57
+sendto(3, "99\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "99\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.048 milli"..., 57Round trip time was  0.048 milliseconds in repetition 99
+) = 57
+sendto(3, "100\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "100\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.056 milli"..., 58Round trip time was  0.056 milliseconds in repetition 100
+) = 58
+sendto(3, "101\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "101\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.049 milli"..., 58Round trip time was  0.049 milliseconds in repetition 101
+) = 58
+sendto(3, "102\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "102\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was 31.113 milli"..., 58Round trip time was 31.113 milliseconds in repetition 102
+) = 58
+sendto(3, "103\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "103\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.088 milli"..., 58Round trip time was  0.088 milliseconds in repetition 103
+) = 58
+sendto(3, "104\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "104\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.062 milli"..., 58Round trip time was  0.062 milliseconds in repetition 104
+) = 58
+sendto(3, "105\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "105\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.058 milli"..., 58Round trip time was  0.058 milliseconds in repetition 105
+) = 58
+sendto(3, "106\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "106\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.057 milli"..., 58Round trip time was  0.057 milliseconds in repetition 106
+) = 58
+sendto(3, "107\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "107\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.059 milli"..., 58Round trip time was  0.059 milliseconds in repetition 107
+) = 58
+sendto(3, "108\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "108\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.057 milli"..., 58Round trip time was  0.057 milliseconds in repetition 108
+) = 58
+sendto(3, "109\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "109\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.057 milli"..., 58Round trip time was  0.057 milliseconds in repetition 109
+) = 58
+sendto(3, "110\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "110\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.058 milli"..., 58Round trip time was  0.058 milliseconds in repetition 110
+) = 58
+sendto(3, "111\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "111\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.057 milli"..., 58Round trip time was  0.057 milliseconds in repetition 111
+) = 58
+sendto(3, "112\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "112\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.057 milli"..., 58Round trip time was  0.057 milliseconds in repetition 112
+) = 58
+sendto(3, "113\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "113\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.062 milli"..., 58Round trip time was  0.062 milliseconds in repetition 113
+) = 58
+sendto(3, "114\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "114\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.057 milli"..., 58Round trip time was  0.057 milliseconds in repetition 114
+) = 58
+sendto(3, "115\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "115\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.057 milli"..., 58Round trip time was  0.057 milliseconds in repetition 115
+) = 58
+sendto(3, "116\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "116\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.057 milli"..., 58Round trip time was  0.057 milliseconds in repetition 116
+) = 58
+sendto(3, "117\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "117\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.057 milli"..., 58Round trip time was  0.057 milliseconds in repetition 117
+) = 58
+sendto(3, "118\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "118\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.067 milli"..., 58Round trip time was  0.067 milliseconds in repetition 118
+) = 58
+sendto(3, "119\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "119\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.057 milli"..., 58Round trip time was  0.057 milliseconds in repetition 119
+) = 58
+sendto(3, "120\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "120\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.057 milli"..., 58Round trip time was  0.057 milliseconds in repetition 120
+) = 58
+sendto(3, "121\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "121\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.057 milli"..., 58Round trip time was  0.057 milliseconds in repetition 121
+) = 58
+sendto(3, "122\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "122\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.057 milli"..., 58Round trip time was  0.057 milliseconds in repetition 122
+) = 58
+sendto(3, "123\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "123\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.060 milli"..., 58Round trip time was  0.060 milliseconds in repetition 123
+) = 58
+sendto(3, "124\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "124\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.057 milli"..., 58Round trip time was  0.057 milliseconds in repetition 124
+) = 58
+sendto(3, "125\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "125\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.057 milli"..., 58Round trip time was  0.057 milliseconds in repetition 125
+) = 58
+sendto(3, "126\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "126\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.057 milli"..., 58Round trip time was  0.057 milliseconds in repetition 126
+) = 58
+sendto(3, "127\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "127\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.057 milli"..., 58Round trip time was  0.057 milliseconds in repetition 127
+) = 58
+sendto(3, "128\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "128\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.057 milli"..., 58Round trip time was  0.057 milliseconds in repetition 128
+) = 58
+sendto(3, "129\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "129\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.061 milli"..., 58Round trip time was  0.061 milliseconds in repetition 129
+) = 58
+sendto(3, "130\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "130\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.057 milli"..., 58Round trip time was  0.057 milliseconds in repetition 130
+) = 58
+sendto(3, "131\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "131\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.070 milli"..., 58Round trip time was  0.070 milliseconds in repetition 131
+) = 58
+sendto(3, "132\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "132\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.057 milli"..., 58Round trip time was  0.057 milliseconds in repetition 132
+) = 58
+sendto(3, "133\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "133\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.057 milli"..., 58Round trip time was  0.057 milliseconds in repetition 133
+) = 58
+sendto(3, "134\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "134\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.062 milli"..., 58Round trip time was  0.062 milliseconds in repetition 134
+) = 58
+sendto(3, "135\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "135\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.057 milli"..., 58Round trip time was  0.057 milliseconds in repetition 135
+) = 58
+sendto(3, "136\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "136\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.057 milli"..., 58Round trip time was  0.057 milliseconds in repetition 136
+) = 58
+sendto(3, "137\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "137\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.057 milli"..., 58Round trip time was  0.057 milliseconds in repetition 137
+) = 58
+sendto(3, "138\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "138\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.057 milli"..., 58Round trip time was  0.057 milliseconds in repetition 138
+) = 58
+sendto(3, "139\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "139\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.069 milli"..., 58Round trip time was  0.069 milliseconds in repetition 139
+) = 58
+sendto(3, "140\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "140\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.057 milli"..., 58Round trip time was  0.057 milliseconds in repetition 140
+) = 58
+sendto(3, "141\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "141\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.057 milli"..., 58Round trip time was  0.057 milliseconds in repetition 141
+) = 58
+sendto(3, "142\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "142\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.057 milli"..., 58Round trip time was  0.057 milliseconds in repetition 142
+) = 58
+sendto(3, "143\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "143\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.057 milli"..., 58Round trip time was  0.057 milliseconds in repetition 143
+) = 58
+sendto(3, "144\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "144\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.057 milli"..., 58Round trip time was  0.057 milliseconds in repetition 144
+) = 58
+sendto(3, "145\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "145\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.057 milli"..., 58Round trip time was  0.057 milliseconds in repetition 145
+) = 58
+sendto(3, "146\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "146\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.182 milli"..., 58Round trip time was  0.182 milliseconds in repetition 146
+) = 58
+sendto(3, "147\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "147\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.062 milli"..., 58Round trip time was  0.062 milliseconds in repetition 147
+) = 58
+sendto(3, "148\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "148\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.060 milli"..., 58Round trip time was  0.060 milliseconds in repetition 148
+) = 58
+sendto(3, "149\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "149\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.060 milli"..., 58Round trip time was  0.060 milliseconds in repetition 149
+) = 58
+sendto(3, "150\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "150\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.060 milli"..., 58Round trip time was  0.060 milliseconds in repetition 150
+) = 58
+sendto(3, "151\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "151\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.061 milli"..., 58Round trip time was  0.061 milliseconds in repetition 151
+) = 58
+sendto(3, "152\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "152\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.066 milli"..., 58Round trip time was  0.066 milliseconds in repetition 152
+) = 58
+sendto(3, "153\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "153\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.073 milli"..., 58Round trip time was  0.073 milliseconds in repetition 153
+) = 58
+sendto(3, "154\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "154\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.069 milli"..., 58Round trip time was  0.069 milliseconds in repetition 154
+) = 58
+sendto(3, "155\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "155\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.066 milli"..., 58Round trip time was  0.066 milliseconds in repetition 155
+) = 58
+sendto(3, "156\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "156\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.063 milli"..., 58Round trip time was  0.063 milliseconds in repetition 156
+) = 58
+sendto(3, "157\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "157\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.064 milli"..., 58Round trip time was  0.064 milliseconds in repetition 157
+) = 58
+sendto(3, "158\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "158\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.084 milli"..., 58Round trip time was  0.084 milliseconds in repetition 158
+) = 58
+sendto(3, "159\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "159\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.065 milli"..., 58Round trip time was  0.065 milliseconds in repetition 159
+) = 58
+sendto(3, "160\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "160\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.065 milli"..., 58Round trip time was  0.065 milliseconds in repetition 160
+) = 58
+sendto(3, "161\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "161\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.067 milli"..., 58Round trip time was  0.067 milliseconds in repetition 161
+) = 58
+sendto(3, "162\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "162\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.082 milli"..., 58Round trip time was  0.082 milliseconds in repetition 162
+) = 58
+sendto(3, "163\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "163\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.067 milli"..., 58Round trip time was  0.067 milliseconds in repetition 163
+) = 58
+sendto(3, "164\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "164\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.067 milli"..., 58Round trip time was  0.067 milliseconds in repetition 164
+) = 58
+sendto(3, "165\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "165\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.069 milli"..., 58Round trip time was  0.069 milliseconds in repetition 165
+) = 58
+sendto(3, "166\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "166\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.066 milli"..., 58Round trip time was  0.066 milliseconds in repetition 166
+) = 58
+sendto(3, "167\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "167\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.081 milli"..., 58Round trip time was  0.081 milliseconds in repetition 167
+) = 58
+sendto(3, "168\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "168\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.078 milli"..., 58Round trip time was  0.078 milliseconds in repetition 168
+) = 58
+sendto(3, "169\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "169\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.083 milli"..., 58Round trip time was  0.083 milliseconds in repetition 169
+) = 58
+sendto(3, "170\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "170\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.070 milli"..., 58Round trip time was  0.070 milliseconds in repetition 170
+) = 58
+sendto(3, "171\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "171\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.078 milli"..., 58Round trip time was  0.078 milliseconds in repetition 171
+) = 58
+sendto(3, "172\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "172\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.066 milli"..., 58Round trip time was  0.066 milliseconds in repetition 172
+) = 58
+sendto(3, "173\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "173\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.066 milli"..., 58Round trip time was  0.066 milliseconds in repetition 173
+) = 58
+sendto(3, "174\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "174\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.098 milli"..., 58Round trip time was  0.098 milliseconds in repetition 174
+) = 58
+sendto(3, "175\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "175\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.069 milli"..., 58Round trip time was  0.069 milliseconds in repetition 175
+) = 58
+sendto(3, "176\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "176\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.064 milli"..., 58Round trip time was  0.064 milliseconds in repetition 176
+) = 58
+sendto(3, "177\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "177\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.065 milli"..., 58Round trip time was  0.065 milliseconds in repetition 177
+) = 58
+sendto(3, "178\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "178\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.064 milli"..., 58Round trip time was  0.064 milliseconds in repetition 178
+) = 58
+sendto(3, "179\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "179\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.073 milli"..., 58Round trip time was  0.073 milliseconds in repetition 179
+) = 58
+sendto(3, "180\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "180\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.074 milli"..., 58Round trip time was  0.074 milliseconds in repetition 180
+) = 58
+sendto(3, "181\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "181\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.068 milli"..., 58Round trip time was  0.068 milliseconds in repetition 181
+) = 58
+sendto(3, "182\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "182\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.054 milli"..., 58Round trip time was  0.054 milliseconds in repetition 182
+) = 58
+sendto(3, "183\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "183\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.051 milli"..., 58Round trip time was  0.051 milliseconds in repetition 183
+) = 58
+sendto(3, "184\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "184\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.052 milli"..., 58Round trip time was  0.052 milliseconds in repetition 184
+) = 58
+sendto(3, "185\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "185\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.068 milli"..., 58Round trip time was  0.068 milliseconds in repetition 185
+) = 58
+sendto(3, "186\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "186\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.067 milli"..., 58Round trip time was  0.067 milliseconds in repetition 186
+) = 58
+sendto(3, "187\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "187\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.066 milli"..., 58Round trip time was  0.066 milliseconds in repetition 187
+) = 58
+sendto(3, "188\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "188\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.065 milli"..., 58Round trip time was  0.065 milliseconds in repetition 188
+) = 58
+sendto(3, "189\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "189\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.065 milli"..., 58Round trip time was  0.065 milliseconds in repetition 189
+) = 58
+sendto(3, "190\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "190\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.066 milli"..., 58Round trip time was  0.066 milliseconds in repetition 190
+) = 58
+sendto(3, "191\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "191\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.081 milli"..., 58Round trip time was  0.081 milliseconds in repetition 191
+) = 58
+sendto(3, "192\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "192\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.128 milli"..., 58Round trip time was  0.128 milliseconds in repetition 192
+) = 58
+sendto(3, "193\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "193\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.097 milli"..., 58Round trip time was  0.097 milliseconds in repetition 193
+) = 58
+sendto(3, "194\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "194\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.067 milli"..., 58Round trip time was  0.067 milliseconds in repetition 194
+) = 58
+sendto(3, "195\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "195\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.069 milli"..., 58Round trip time was  0.069 milliseconds in repetition 195
+) = 58
+sendto(3, "196\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "196\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.084 milli"..., 58Round trip time was  0.084 milliseconds in repetition 196
+) = 58
+sendto(3, "197\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "197\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.073 milli"..., 58Round trip time was  0.073 milliseconds in repetition 197
+) = 58
+sendto(3, "198\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "198\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.078 milli"..., 58Round trip time was  0.078 milliseconds in repetition 198
+) = 58
+sendto(3, "199\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "199\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.077 milli"..., 58Round trip time was  0.077 milliseconds in repetition 199
+) = 58
+sendto(3, "200\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "200\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.108 milli"..., 58Round trip time was  0.108 milliseconds in repetition 200
+) = 58
+sendto(3, "201\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "201\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.072 milli"..., 58Round trip time was  0.072 milliseconds in repetition 201
+) = 58
+sendto(3, "202\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "202\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.069 milli"..., 58Round trip time was  0.069 milliseconds in repetition 202
+) = 58
+sendto(3, "203\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "203\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.067 milli"..., 58Round trip time was  0.067 milliseconds in repetition 203
+) = 58
+sendto(3, "204\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "204\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.069 milli"..., 58Round trip time was  0.069 milliseconds in repetition 204
+) = 58
+sendto(3, "205\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "205\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.073 milli"..., 58Round trip time was  0.073 milliseconds in repetition 205
+) = 58
+sendto(3, "206\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "206\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.076 milli"..., 58Round trip time was  0.076 milliseconds in repetition 206
+) = 58
+sendto(3, "207\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "207\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.074 milli"..., 58Round trip time was  0.074 milliseconds in repetition 207
+) = 58
+sendto(3, "208\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "208\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.094 milli"..., 58Round trip time was  0.094 milliseconds in repetition 208
+) = 58
+sendto(3, "209\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "209\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.075 milli"..., 58Round trip time was  0.075 milliseconds in repetition 209
+) = 58
+sendto(3, "210\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "210\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.071 milli"..., 58Round trip time was  0.071 milliseconds in repetition 210
+) = 58
+sendto(3, "211\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "211\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.073 milli"..., 58Round trip time was  0.073 milliseconds in repetition 211
+) = 58
+sendto(3, "212\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "212\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.097 milli"..., 58Round trip time was  0.097 milliseconds in repetition 212
+) = 58
+sendto(3, "213\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "213\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.076 milli"..., 58Round trip time was  0.076 milliseconds in repetition 213
+) = 58
+sendto(3, "214\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "214\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.070 milli"..., 58Round trip time was  0.070 milliseconds in repetition 214
+) = 58
+sendto(3, "215\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "215\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.067 milli"..., 58Round trip time was  0.067 milliseconds in repetition 215
+) = 58
+sendto(3, "216\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "216\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.063 milli"..., 58Round trip time was  0.063 milliseconds in repetition 216
+) = 58
+sendto(3, "217\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "217\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.060 milli"..., 58Round trip time was  0.060 milliseconds in repetition 217
+) = 58
+sendto(3, "218\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "218\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.060 milli"..., 58Round trip time was  0.060 milliseconds in repetition 218
+) = 58
+sendto(3, "219\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "219\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.060 milli"..., 58Round trip time was  0.060 milliseconds in repetition 219
+) = 58
+sendto(3, "220\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "220\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.061 milli"..., 58Round trip time was  0.061 milliseconds in repetition 220
+) = 58
+sendto(3, "221\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "221\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.060 milli"..., 58Round trip time was  0.060 milliseconds in repetition 221
+) = 58
+sendto(3, "222\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "222\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.060 milli"..., 58Round trip time was  0.060 milliseconds in repetition 222
+) = 58
+sendto(3, "223\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "223\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.060 milli"..., 58Round trip time was  0.060 milliseconds in repetition 223
+) = 58
+sendto(3, "224\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "224\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.060 milli"..., 58Round trip time was  0.060 milliseconds in repetition 224
+) = 58
+sendto(3, "225\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "225\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.059 milli"..., 58Round trip time was  0.059 milliseconds in repetition 225
+) = 58
+sendto(3, "226\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "226\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.059 milli"..., 58Round trip time was  0.059 milliseconds in repetition 226
+) = 58
+sendto(3, "227\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "227\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.060 milli"..., 58Round trip time was  0.060 milliseconds in repetition 227
+) = 58
+sendto(3, "228\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "228\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.060 milli"..., 58Round trip time was  0.060 milliseconds in repetition 228
+) = 58
+sendto(3, "229\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "229\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.060 milli"..., 58Round trip time was  0.060 milliseconds in repetition 229
+) = 58
+sendto(3, "230\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "230\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.060 milli"..., 58Round trip time was  0.060 milliseconds in repetition 230
+) = 58
+sendto(3, "231\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "231\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.060 milli"..., 58Round trip time was  0.060 milliseconds in repetition 231
+) = 58
+sendto(3, "232\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "232\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.059 milli"..., 58Round trip time was  0.059 milliseconds in repetition 232
+) = 58
+sendto(3, "233\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "233\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.060 milli"..., 58Round trip time was  0.060 milliseconds in repetition 233
+) = 58
+sendto(3, "234\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "234\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.059 milli"..., 58Round trip time was  0.059 milliseconds in repetition 234
+) = 58
+sendto(3, "235\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "235\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.059 milli"..., 58Round trip time was  0.059 milliseconds in repetition 235
+) = 58
+sendto(3, "236\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "236\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.059 milli"..., 58Round trip time was  0.059 milliseconds in repetition 236
+) = 58
+sendto(3, "237\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "237\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.060 milli"..., 58Round trip time was  0.060 milliseconds in repetition 237
+) = 58
+sendto(3, "238\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "238\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.060 milli"..., 58Round trip time was  0.060 milliseconds in repetition 238
+) = 58
+sendto(3, "239\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "239\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.060 milli"..., 58Round trip time was  0.060 milliseconds in repetition 239
+) = 58
+sendto(3, "240\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "240\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.060 milli"..., 58Round trip time was  0.060 milliseconds in repetition 240
+) = 58
+sendto(3, "241\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "241\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.059 milli"..., 58Round trip time was  0.059 milliseconds in repetition 241
+) = 58
+sendto(3, "242\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "242\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.060 milli"..., 58Round trip time was  0.060 milliseconds in repetition 242
+) = 58
+sendto(3, "243\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "243\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.059 milli"..., 58Round trip time was  0.059 milliseconds in repetition 243
+) = 58
+sendto(3, "244\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "244\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.060 milli"..., 58Round trip time was  0.060 milliseconds in repetition 244
+) = 58
+sendto(3, "245\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "245\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.060 milli"..., 58Round trip time was  0.060 milliseconds in repetition 245
+) = 58
+sendto(3, "246\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "246\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.059 milli"..., 58Round trip time was  0.059 milliseconds in repetition 246
+) = 58
+sendto(3, "247\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "247\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.060 milli"..., 58Round trip time was  0.060 milliseconds in repetition 247
+) = 58
+sendto(3, "248\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "248\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.060 milli"..., 58Round trip time was  0.060 milliseconds in repetition 248
+) = 58
+sendto(3, "249\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "249\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.060 milli"..., 58Round trip time was  0.060 milliseconds in repetition 249
+) = 58
+sendto(3, "250\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "250\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.060 milli"..., 58Round trip time was  0.060 milliseconds in repetition 250
+) = 58
+sendto(3, "251\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "251\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.060 milli"..., 58Round trip time was  0.060 milliseconds in repetition 251
+) = 58
+sendto(3, "252\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "252\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.060 milli"..., 58Round trip time was  0.060 milliseconds in repetition 252
+) = 58
+sendto(3, "253\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "253\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.060 milli"..., 58Round trip time was  0.060 milliseconds in repetition 253
+) = 58
+sendto(3, "254\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "254\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.059 milli"..., 58Round trip time was  0.059 milliseconds in repetition 254
+) = 58
+sendto(3, "255\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "255\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.060 milli"..., 58Round trip time was  0.060 milliseconds in repetition 255
+) = 58
+sendto(3, "256\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "256\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.060 milli"..., 58Round trip time was  0.060 milliseconds in repetition 256
+) = 58
+sendto(3, "257\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "257\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.060 milli"..., 58Round trip time was  0.060 milliseconds in repetition 257
+) = 58
+sendto(3, "258\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "258\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.060 milli"..., 58Round trip time was  0.060 milliseconds in repetition 258
+) = 58
+sendto(3, "259\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "259\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.065 milli"..., 58Round trip time was  0.065 milliseconds in repetition 259
+) = 58
+sendto(3, "260\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "260\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.087 milli"..., 58Round trip time was  0.087 milliseconds in repetition 260
+) = 58
+sendto(3, "261\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "261\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.060 milli"..., 58Round trip time was  0.060 milliseconds in repetition 261
+) = 58
+sendto(3, "262\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "262\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.059 milli"..., 58Round trip time was  0.059 milliseconds in repetition 262
+) = 58
+sendto(3, "263\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "263\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.061 milli"..., 58Round trip time was  0.061 milliseconds in repetition 263
+) = 58
+sendto(3, "264\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "264\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.059 milli"..., 58Round trip time was  0.059 milliseconds in repetition 264
+) = 58
+sendto(3, "265\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "265\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.059 milli"..., 58Round trip time was  0.059 milliseconds in repetition 265
+) = 58
+sendto(3, "266\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "266\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.058 milli"..., 58Round trip time was  0.058 milliseconds in repetition 266
+) = 58
+sendto(3, "267\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "267\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.058 milli"..., 58Round trip time was  0.058 milliseconds in repetition 267
+) = 58
+sendto(3, "268\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "268\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.062 milli"..., 58Round trip time was  0.062 milliseconds in repetition 268
+) = 58
+sendto(3, "269\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "269\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.058 milli"..., 58Round trip time was  0.058 milliseconds in repetition 269
+) = 58
+sendto(3, "270\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "270\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.059 milli"..., 58Round trip time was  0.059 milliseconds in repetition 270
+) = 58
+sendto(3, "271\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "271\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.059 milli"..., 58Round trip time was  0.059 milliseconds in repetition 271
+) = 58
+sendto(3, "272\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "272\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.059 milli"..., 58Round trip time was  0.059 milliseconds in repetition 272
+) = 58
+sendto(3, "273\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "273\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.058 milli"..., 58Round trip time was  0.058 milliseconds in repetition 273
+) = 58
+sendto(3, "274\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "274\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.059 milli"..., 58Round trip time was  0.059 milliseconds in repetition 274
+) = 58
+sendto(3, "275\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "275\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.059 milli"..., 58Round trip time was  0.059 milliseconds in repetition 275
+) = 58
+sendto(3, "276\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "276\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.059 milli"..., 58Round trip time was  0.059 milliseconds in repetition 276
+) = 58
+sendto(3, "277\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "277\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.059 milli"..., 58Round trip time was  0.059 milliseconds in repetition 277
+) = 58
+sendto(3, "278\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "278\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.059 milli"..., 58Round trip time was  0.059 milliseconds in repetition 278
+) = 58
+sendto(3, "279\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "279\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.058 milli"..., 58Round trip time was  0.058 milliseconds in repetition 279
+) = 58
+sendto(3, "280\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "280\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.059 milli"..., 58Round trip time was  0.059 milliseconds in repetition 280
+) = 58
+sendto(3, "281\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "281\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.058 milli"..., 58Round trip time was  0.058 milliseconds in repetition 281
+) = 58
+sendto(3, "282\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "282\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.058 milli"..., 58Round trip time was  0.058 milliseconds in repetition 282
+) = 58
+sendto(3, "283\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "283\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.059 milli"..., 58Round trip time was  0.059 milliseconds in repetition 283
+) = 58
+sendto(3, "284\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "284\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.058 milli"..., 58Round trip time was  0.058 milliseconds in repetition 284
+) = 58
+sendto(3, "285\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "285\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.059 milli"..., 58Round trip time was  0.059 milliseconds in repetition 285
+) = 58
+sendto(3, "286\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "286\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.059 milli"..., 58Round trip time was  0.059 milliseconds in repetition 286
+) = 58
+sendto(3, "287\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "287\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.064 milli"..., 58Round trip time was  0.064 milliseconds in repetition 287
+) = 58
+sendto(3, "288\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "288\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.063 milli"..., 58Round trip time was  0.063 milliseconds in repetition 288
+) = 58
+sendto(3, "289\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "289\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.063 milli"..., 58Round trip time was  0.063 milliseconds in repetition 289
+) = 58
+sendto(3, "290\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "290\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.063 milli"..., 58Round trip time was  0.063 milliseconds in repetition 290
+) = 58
+sendto(3, "291\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "291\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.213 milli"..., 58Round trip time was  0.213 milliseconds in repetition 291
+) = 58
+sendto(3, "292\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "292\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.073 milli"..., 58Round trip time was  0.073 milliseconds in repetition 292
+) = 58
+sendto(3, "293\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "293\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.065 milli"..., 58Round trip time was  0.065 milliseconds in repetition 293
+) = 58
+sendto(3, "294\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "294\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.065 milli"..., 58Round trip time was  0.065 milliseconds in repetition 294
+) = 58
+sendto(3, "295\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "295\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.064 milli"..., 58Round trip time was  0.064 milliseconds in repetition 295
+) = 58
+sendto(3, "296\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "296\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.064 milli"..., 58Round trip time was  0.064 milliseconds in repetition 296
+) = 58
+sendto(3, "297\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "297\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.064 milli"..., 58Round trip time was  0.064 milliseconds in repetition 297
+) = 58
+sendto(3, "298\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "298\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.064 milli"..., 58Round trip time was  0.064 milliseconds in repetition 298
+) = 58
+sendto(3, "299\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "299\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.064 milli"..., 58Round trip time was  0.064 milliseconds in repetition 299
+) = 58
+sendto(3, "300\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "300\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.064 milli"..., 58Round trip time was  0.064 milliseconds in repetition 300
+) = 58
+sendto(3, "301\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "301\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.064 milli"..., 58Round trip time was  0.064 milliseconds in repetition 301
+) = 58
+sendto(3, "302\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "302\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.064 milli"..., 58Round trip time was  0.064 milliseconds in repetition 302
+) = 58
+sendto(3, "303\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "303\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.064 milli"..., 58Round trip time was  0.064 milliseconds in repetition 303
+) = 58
+sendto(3, "304\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "304\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.064 milli"..., 58Round trip time was  0.064 milliseconds in repetition 304
+) = 58
+sendto(3, "305\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "305\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.064 milli"..., 58Round trip time was  0.064 milliseconds in repetition 305
+) = 58
+sendto(3, "306\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "306\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.075 milli"..., 58Round trip time was  0.075 milliseconds in repetition 306
+) = 58
+sendto(3, "307\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "307\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.065 milli"..., 58Round trip time was  0.065 milliseconds in repetition 307
+) = 58
+sendto(3, "308\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "308\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.063 milli"..., 58Round trip time was  0.063 milliseconds in repetition 308
+) = 58
+sendto(3, "309\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "309\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.061 milli"..., 58Round trip time was  0.061 milliseconds in repetition 309
+) = 58
+sendto(3, "310\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "310\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.062 milli"..., 58Round trip time was  0.062 milliseconds in repetition 310
+) = 58
+sendto(3, "311\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "311\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.062 milli"..., 58Round trip time was  0.062 milliseconds in repetition 311
+) = 58
+sendto(3, "312\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "312\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.061 milli"..., 58Round trip time was  0.061 milliseconds in repetition 312
+) = 58
+sendto(3, "313\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "313\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.061 milli"..., 58Round trip time was  0.061 milliseconds in repetition 313
+) = 58
+sendto(3, "314\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "314\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.062 milli"..., 58Round trip time was  0.062 milliseconds in repetition 314
+) = 58
+sendto(3, "315\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "315\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.061 milli"..., 58Round trip time was  0.061 milliseconds in repetition 315
+) = 58
+sendto(3, "316\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "316\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.062 milli"..., 58Round trip time was  0.062 milliseconds in repetition 316
+) = 58
+sendto(3, "317\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "317\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.062 milli"..., 58Round trip time was  0.062 milliseconds in repetition 317
+) = 58
+sendto(3, "318\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "318\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.062 milli"..., 58Round trip time was  0.062 milliseconds in repetition 318
+) = 58
+sendto(3, "319\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "319\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.062 milli"..., 58Round trip time was  0.062 milliseconds in repetition 319
+) = 58
+sendto(3, "320\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "320\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.061 milli"..., 58Round trip time was  0.061 milliseconds in repetition 320
+) = 58
+sendto(3, "321\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "321\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.061 milli"..., 58Round trip time was  0.061 milliseconds in repetition 321
+) = 58
+sendto(3, "322\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "322\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.061 milli"..., 58Round trip time was  0.061 milliseconds in repetition 322
+) = 58
+sendto(3, "323\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "323\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.061 milli"..., 58Round trip time was  0.061 milliseconds in repetition 323
+) = 58
+sendto(3, "324\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "324\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.062 milli"..., 58Round trip time was  0.062 milliseconds in repetition 324
+) = 58
+sendto(3, "325\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "325\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.061 milli"..., 58Round trip time was  0.061 milliseconds in repetition 325
+) = 58
+sendto(3, "326\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "326\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.061 milli"..., 58Round trip time was  0.061 milliseconds in repetition 326
+) = 58
+sendto(3, "327\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "327\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.061 milli"..., 58Round trip time was  0.061 milliseconds in repetition 327
+) = 58
+sendto(3, "328\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "328\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.061 milli"..., 58Round trip time was  0.061 milliseconds in repetition 328
+) = 58
+sendto(3, "329\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "329\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.061 milli"..., 58Round trip time was  0.061 milliseconds in repetition 329
+) = 58
+sendto(3, "330\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "330\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.061 milli"..., 58Round trip time was  0.061 milliseconds in repetition 330
+) = 58
+sendto(3, "331\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "331\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.062 milli"..., 58Round trip time was  0.062 milliseconds in repetition 331
+) = 58
+sendto(3, "332\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "332\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.061 milli"..., 58Round trip time was  0.061 milliseconds in repetition 332
+) = 58
+sendto(3, "333\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "333\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.061 milli"..., 58Round trip time was  0.061 milliseconds in repetition 333
+) = 58
+sendto(3, "334\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "334\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.061 milli"..., 58Round trip time was  0.061 milliseconds in repetition 334
+) = 58
+sendto(3, "335\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "335\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.061 milli"..., 58Round trip time was  0.061 milliseconds in repetition 335
+) = 58
+sendto(3, "336\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "336\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.061 milli"..., 58Round trip time was  0.061 milliseconds in repetition 336
+) = 58
+sendto(3, "337\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "337\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.062 milli"..., 58Round trip time was  0.062 milliseconds in repetition 337
+) = 58
+sendto(3, "338\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "338\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.061 milli"..., 58Round trip time was  0.061 milliseconds in repetition 338
+) = 58
+sendto(3, "339\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "339\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.062 milli"..., 58Round trip time was  0.062 milliseconds in repetition 339
+) = 58
+sendto(3, "340\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "340\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.061 milli"..., 58Round trip time was  0.061 milliseconds in repetition 340
+) = 58
+sendto(3, "341\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "341\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.061 milli"..., 58Round trip time was  0.061 milliseconds in repetition 341
+) = 58
+sendto(3, "342\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "342\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.061 milli"..., 58Round trip time was  0.061 milliseconds in repetition 342
+) = 58
+sendto(3, "343\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "343\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.061 milli"..., 58Round trip time was  0.061 milliseconds in repetition 343
+) = 58
+sendto(3, "344\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "344\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.061 milli"..., 58Round trip time was  0.061 milliseconds in repetition 344
+) = 58
+sendto(3, "345\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "345\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.062 milli"..., 58Round trip time was  0.062 milliseconds in repetition 345
+) = 58
+sendto(3, "346\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "346\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.061 milli"..., 58Round trip time was  0.061 milliseconds in repetition 346
+) = 58
+sendto(3, "347\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "347\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.061 milli"..., 58Round trip time was  0.061 milliseconds in repetition 347
+) = 58
+sendto(3, "348\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "348\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.061 milli"..., 58Round trip time was  0.061 milliseconds in repetition 348
+) = 58
+sendto(3, "349\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "349\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.062 milli"..., 58Round trip time was  0.062 milliseconds in repetition 349
+) = 58
+sendto(3, "350\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "350\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.061 milli"..., 58Round trip time was  0.061 milliseconds in repetition 350
+) = 58
+sendto(3, "351\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "351\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.062 milli"..., 58Round trip time was  0.062 milliseconds in repetition 351
+) = 58
+sendto(3, "352\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "352\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.062 milli"..., 58Round trip time was  0.062 milliseconds in repetition 352
+) = 58
+sendto(3, "353\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "353\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.062 milli"..., 58Round trip time was  0.062 milliseconds in repetition 353
+) = 58
+sendto(3, "354\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "354\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.062 milli"..., 58Round trip time was  0.062 milliseconds in repetition 354
+) = 58
+sendto(3, "355\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "355\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.061 milli"..., 58Round trip time was  0.061 milliseconds in repetition 355
+) = 58
+sendto(3, "356\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "356\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.061 milli"..., 58Round trip time was  0.061 milliseconds in repetition 356
+) = 58
+sendto(3, "357\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "357\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.061 milli"..., 58Round trip time was  0.061 milliseconds in repetition 357
+) = 58
+sendto(3, "358\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "358\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.061 milli"..., 58Round trip time was  0.061 milliseconds in repetition 358
+) = 58
+sendto(3, "359\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "359\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.061 milli"..., 58Round trip time was  0.061 milliseconds in repetition 359
+) = 58
+sendto(3, "360\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "360\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.061 milli"..., 58Round trip time was  0.061 milliseconds in repetition 360
+) = 58
+sendto(3, "361\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "361\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.061 milli"..., 58Round trip time was  0.061 milliseconds in repetition 361
+) = 58
+sendto(3, "362\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "362\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.061 milli"..., 58Round trip time was  0.061 milliseconds in repetition 362
+) = 58
+sendto(3, "363\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "363\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.061 milli"..., 58Round trip time was  0.061 milliseconds in repetition 363
+) = 58
+sendto(3, "364\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "364\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.061 milli"..., 58Round trip time was  0.061 milliseconds in repetition 364
+) = 58
+sendto(3, "365\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "365\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.061 milli"..., 58Round trip time was  0.061 milliseconds in repetition 365
+) = 58
+sendto(3, "366\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "366\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.061 milli"..., 58Round trip time was  0.061 milliseconds in repetition 366
+) = 58
+sendto(3, "367\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "367\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.061 milli"..., 58Round trip time was  0.061 milliseconds in repetition 367
+) = 58
+sendto(3, "368\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "368\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.060 milli"..., 58Round trip time was  0.060 milliseconds in repetition 368
+) = 58
+sendto(3, "369\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "369\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.075 milli"..., 58Round trip time was  0.075 milliseconds in repetition 369
+) = 58
+sendto(3, "370\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "370\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.063 milli"..., 58Round trip time was  0.063 milliseconds in repetition 370
+) = 58
+sendto(3, "371\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "371\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.063 milli"..., 58Round trip time was  0.063 milliseconds in repetition 371
+) = 58
+sendto(3, "372\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "372\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.064 milli"..., 58Round trip time was  0.064 milliseconds in repetition 372
+) = 58
+sendto(3, "373\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "373\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.063 milli"..., 58Round trip time was  0.063 milliseconds in repetition 373
+) = 58
+sendto(3, "374\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "374\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.063 milli"..., 58Round trip time was  0.063 milliseconds in repetition 374
+) = 58
+sendto(3, "375\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "375\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.063 milli"..., 58Round trip time was  0.063 milliseconds in repetition 375
+) = 58
+sendto(3, "376\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "376\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.063 milli"..., 58Round trip time was  0.063 milliseconds in repetition 376
+) = 58
+sendto(3, "377\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "377\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.115 milli"..., 58Round trip time was  0.115 milliseconds in repetition 377
+) = 58
+sendto(3, "378\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "378\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.066 milli"..., 58Round trip time was  0.066 milliseconds in repetition 378
+) = 58
+sendto(3, "379\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "379\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.064 milli"..., 58Round trip time was  0.064 milliseconds in repetition 379
+) = 58
+sendto(3, "380\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "380\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.064 milli"..., 58Round trip time was  0.064 milliseconds in repetition 380
+) = 58
+sendto(3, "381\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "381\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.064 milli"..., 58Round trip time was  0.064 milliseconds in repetition 381
+) = 58
+sendto(3, "382\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "382\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.064 milli"..., 58Round trip time was  0.064 milliseconds in repetition 382
+) = 58
+sendto(3, "383\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "383\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.064 milli"..., 58Round trip time was  0.064 milliseconds in repetition 383
+) = 58
+sendto(3, "384\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "384\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.064 milli"..., 58Round trip time was  0.064 milliseconds in repetition 384
+) = 58
+sendto(3, "385\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "385\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.064 milli"..., 58Round trip time was  0.064 milliseconds in repetition 385
+) = 58
+sendto(3, "386\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "386\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.064 milli"..., 58Round trip time was  0.064 milliseconds in repetition 386
+) = 58
+sendto(3, "387\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "387\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.064 milli"..., 58Round trip time was  0.064 milliseconds in repetition 387
+) = 58
+sendto(3, "388\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "388\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.063 milli"..., 58Round trip time was  0.063 milliseconds in repetition 388
+) = 58
+sendto(3, "389\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "389\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.064 milli"..., 58Round trip time was  0.064 milliseconds in repetition 389
+) = 58
+sendto(3, "390\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "390\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.064 milli"..., 58Round trip time was  0.064 milliseconds in repetition 390
+) = 58
+sendto(3, "391\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "391\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.064 milli"..., 58Round trip time was  0.064 milliseconds in repetition 391
+) = 58
+sendto(3, "392\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "392\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.064 milli"..., 58Round trip time was  0.064 milliseconds in repetition 392
+) = 58
+sendto(3, "393\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "393\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.065 milli"..., 58Round trip time was  0.065 milliseconds in repetition 393
+) = 58
+sendto(3, "394\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "394\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.064 milli"..., 58Round trip time was  0.064 milliseconds in repetition 394
+) = 58
+sendto(3, "395\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "395\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.063 milli"..., 58Round trip time was  0.063 milliseconds in repetition 395
+) = 58
+sendto(3, "396\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "396\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.064 milli"..., 58Round trip time was  0.064 milliseconds in repetition 396
+) = 58
+sendto(3, "397\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "397\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.083 milli"..., 58Round trip time was  0.083 milliseconds in repetition 397
+) = 58
+sendto(3, "398\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "398\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.055 milli"..., 58Round trip time was  0.055 milliseconds in repetition 398
+) = 58
+sendto(3, "399\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "399\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.052 milli"..., 58Round trip time was  0.052 milliseconds in repetition 399
+) = 58
+sendto(3, "400\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "400\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.051 milli"..., 58Round trip time was  0.051 milliseconds in repetition 400
+) = 58
+sendto(3, "401\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "401\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.066 milli"..., 58Round trip time was  0.066 milliseconds in repetition 401
+) = 58
+sendto(3, "402\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "402\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.051 milli"..., 58Round trip time was  0.051 milliseconds in repetition 402
+) = 58
+sendto(3, "403\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "403\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.051 milli"..., 58Round trip time was  0.051 milliseconds in repetition 403
+) = 58
+sendto(3, "404\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "404\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.051 milli"..., 58Round trip time was  0.051 milliseconds in repetition 404
+) = 58
+sendto(3, "405\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "405\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.049 milli"..., 58Round trip time was  0.049 milliseconds in repetition 405
+) = 58
+sendto(3, "406\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "406\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.051 milli"..., 58Round trip time was  0.051 milliseconds in repetition 406
+) = 58
+sendto(3, "407\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "407\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.050 milli"..., 58Round trip time was  0.050 milliseconds in repetition 407
+) = 58
+sendto(3, "408\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "408\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.049 milli"..., 58Round trip time was  0.049 milliseconds in repetition 408
+) = 58
+sendto(3, "409\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "409\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.051 milli"..., 58Round trip time was  0.051 milliseconds in repetition 409
+) = 58
+sendto(3, "410\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "410\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.050 milli"..., 58Round trip time was  0.050 milliseconds in repetition 410
+) = 58
+sendto(3, "411\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "411\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.051 milli"..., 58Round trip time was  0.051 milliseconds in repetition 411
+) = 58
+sendto(3, "412\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "412\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.051 milli"..., 58Round trip time was  0.051 milliseconds in repetition 412
+) = 58
+sendto(3, "413\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "413\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.051 milli"..., 58Round trip time was  0.051 milliseconds in repetition 413
+) = 58
+sendto(3, "414\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "414\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.050 milli"..., 58Round trip time was  0.050 milliseconds in repetition 414
+) = 58
+sendto(3, "415\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "415\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.050 milli"..., 58Round trip time was  0.050 milliseconds in repetition 415
+) = 58
+sendto(3, "416\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "416\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.050 milli"..., 58Round trip time was  0.050 milliseconds in repetition 416
+) = 58
+sendto(3, "417\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "417\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.051 milli"..., 58Round trip time was  0.051 milliseconds in repetition 417
+) = 58
+sendto(3, "418\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "418\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.050 milli"..., 58Round trip time was  0.050 milliseconds in repetition 418
+) = 58
+sendto(3, "419\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "419\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.049 milli"..., 58Round trip time was  0.049 milliseconds in repetition 419
+) = 58
+sendto(3, "420\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "420\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.051 milli"..., 58Round trip time was  0.051 milliseconds in repetition 420
+) = 58
+sendto(3, "421\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "421\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.050 milli"..., 58Round trip time was  0.050 milliseconds in repetition 421
+) = 58
+sendto(3, "422\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "422\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.050 milli"..., 58Round trip time was  0.050 milliseconds in repetition 422
+) = 58
+sendto(3, "423\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "423\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.050 milli"..., 58Round trip time was  0.050 milliseconds in repetition 423
+) = 58
+sendto(3, "424\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "424\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.051 milli"..., 58Round trip time was  0.051 milliseconds in repetition 424
+) = 58
+sendto(3, "425\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "425\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.051 milli"..., 58Round trip time was  0.051 milliseconds in repetition 425
+) = 58
+sendto(3, "426\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "426\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.051 milli"..., 58Round trip time was  0.051 milliseconds in repetition 426
+) = 58
+sendto(3, "427\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "427\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.051 milli"..., 58Round trip time was  0.051 milliseconds in repetition 427
+) = 58
+sendto(3, "428\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "428\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.049 milli"..., 58Round trip time was  0.049 milliseconds in repetition 428
+) = 58
+sendto(3, "429\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "429\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.049 milli"..., 58Round trip time was  0.049 milliseconds in repetition 429
+) = 58
+sendto(3, "430\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "430\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.051 milli"..., 58Round trip time was  0.051 milliseconds in repetition 430
+) = 58
+sendto(3, "431\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "431\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.051 milli"..., 58Round trip time was  0.051 milliseconds in repetition 431
+) = 58
+sendto(3, "432\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "432\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.062 milli"..., 58Round trip time was  0.062 milliseconds in repetition 432
+) = 58
+sendto(3, "433\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "433\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.047 milli"..., 58Round trip time was  0.047 milliseconds in repetition 433
+) = 58
+sendto(3, "434\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "434\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.154 milli"..., 58Round trip time was  0.154 milliseconds in repetition 434
+) = 58
+sendto(3, "435\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "435\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.051 milli"..., 58Round trip time was  0.051 milliseconds in repetition 435
+) = 58
+sendto(3, "436\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "436\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.049 milli"..., 58Round trip time was  0.049 milliseconds in repetition 436
+) = 58
+sendto(3, "437\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "437\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.049 milli"..., 58Round trip time was  0.049 milliseconds in repetition 437
+) = 58
+sendto(3, "438\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "438\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.049 milli"..., 58Round trip time was  0.049 milliseconds in repetition 438
+) = 58
+sendto(3, "439\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "439\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.049 milli"..., 58Round trip time was  0.049 milliseconds in repetition 439
+) = 58
+sendto(3, "440\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "440\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.049 milli"..., 58Round trip time was  0.049 milliseconds in repetition 440
+) = 58
+sendto(3, "441\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "441\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.049 milli"..., 58Round trip time was  0.049 milliseconds in repetition 441
+) = 58
+sendto(3, "442\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "442\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.049 milli"..., 58Round trip time was  0.049 milliseconds in repetition 442
+) = 58
+sendto(3, "443\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "443\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.049 milli"..., 58Round trip time was  0.049 milliseconds in repetition 443
+) = 58
+sendto(3, "444\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "444\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.049 milli"..., 58Round trip time was  0.049 milliseconds in repetition 444
+) = 58
+sendto(3, "445\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "445\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.048 milli"..., 58Round trip time was  0.048 milliseconds in repetition 445
+) = 58
+sendto(3, "446\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "446\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.048 milli"..., 58Round trip time was  0.048 milliseconds in repetition 446
+) = 58
+sendto(3, "447\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "447\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.049 milli"..., 58Round trip time was  0.049 milliseconds in repetition 447
+) = 58
+sendto(3, "448\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "448\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.048 milli"..., 58Round trip time was  0.048 milliseconds in repetition 448
+) = 58
+sendto(3, "449\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "449\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.056 milli"..., 58Round trip time was  0.056 milliseconds in repetition 449
+) = 58
+sendto(3, "450\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "450\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.057 milli"..., 58Round trip time was  0.057 milliseconds in repetition 450
+) = 58
+sendto(3, "451\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "451\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.057 milli"..., 58Round trip time was  0.057 milliseconds in repetition 451
+) = 58
+sendto(3, "452\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "452\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.056 milli"..., 58Round trip time was  0.056 milliseconds in repetition 452
+) = 58
+sendto(3, "453\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "453\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.058 milli"..., 58Round trip time was  0.058 milliseconds in repetition 453
+) = 58
+sendto(3, "454\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "454\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.056 milli"..., 58Round trip time was  0.056 milliseconds in repetition 454
+) = 58
+sendto(3, "455\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "455\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.078 milli"..., 58Round trip time was  0.078 milliseconds in repetition 455
+) = 58
+sendto(3, "456\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "456\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.059 milli"..., 58Round trip time was  0.059 milliseconds in repetition 456
+) = 58
+sendto(3, "457\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "457\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.056 milli"..., 58Round trip time was  0.056 milliseconds in repetition 457
+) = 58
+sendto(3, "458\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "458\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.057 milli"..., 58Round trip time was  0.057 milliseconds in repetition 458
+) = 58
+sendto(3, "459\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "459\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.057 milli"..., 58Round trip time was  0.057 milliseconds in repetition 459
+) = 58
+sendto(3, "460\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "460\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.058 milli"..., 58Round trip time was  0.058 milliseconds in repetition 460
+) = 58
+sendto(3, "461\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "461\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.058 milli"..., 58Round trip time was  0.058 milliseconds in repetition 461
+) = 58
+sendto(3, "462\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "462\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.056 milli"..., 58Round trip time was  0.056 milliseconds in repetition 462
+) = 58
+sendto(3, "463\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "463\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.056 milli"..., 58Round trip time was  0.056 milliseconds in repetition 463
+) = 58
+sendto(3, "464\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "464\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.058 milli"..., 58Round trip time was  0.058 milliseconds in repetition 464
+) = 58
+sendto(3, "465\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "465\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.058 milli"..., 58Round trip time was  0.058 milliseconds in repetition 465
+) = 58
+sendto(3, "466\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "466\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.056 milli"..., 58Round trip time was  0.056 milliseconds in repetition 466
+) = 58
+sendto(3, "467\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "467\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.056 milli"..., 58Round trip time was  0.056 milliseconds in repetition 467
+) = 58
+sendto(3, "468\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "468\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.056 milli"..., 58Round trip time was  0.056 milliseconds in repetition 468
+) = 58
+sendto(3, "469\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "469\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.058 milli"..., 58Round trip time was  0.058 milliseconds in repetition 469
+) = 58
+sendto(3, "470\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "470\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.057 milli"..., 58Round trip time was  0.057 milliseconds in repetition 470
+) = 58
+sendto(3, "471\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "471\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.057 milli"..., 58Round trip time was  0.057 milliseconds in repetition 471
+) = 58
+sendto(3, "472\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "472\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.057 milli"..., 58Round trip time was  0.057 milliseconds in repetition 472
+) = 58
+sendto(3, "473\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "473\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was 27.316 milli"..., 58Round trip time was 27.316 milliseconds in repetition 473
+) = 58
+sendto(3, "474\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "474\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.192 milli"..., 58Round trip time was  0.192 milliseconds in repetition 474
+) = 58
+sendto(3, "475\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "475\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.072 milli"..., 58Round trip time was  0.072 milliseconds in repetition 475
+) = 58
+sendto(3, "476\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "476\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.074 milli"..., 58Round trip time was  0.074 milliseconds in repetition 476
+) = 58
+sendto(3, "477\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "477\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.066 milli"..., 58Round trip time was  0.066 milliseconds in repetition 477
+) = 58
+sendto(3, "478\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "478\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.065 milli"..., 58Round trip time was  0.065 milliseconds in repetition 478
+) = 58
+sendto(3, "479\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "479\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.065 milli"..., 58Round trip time was  0.065 milliseconds in repetition 479
+) = 58
+sendto(3, "480\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "480\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.065 milli"..., 58Round trip time was  0.065 milliseconds in repetition 480
+) = 58
+sendto(3, "481\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "481\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.064 milli"..., 58Round trip time was  0.064 milliseconds in repetition 481
+) = 58
+sendto(3, "482\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "482\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.065 milli"..., 58Round trip time was  0.065 milliseconds in repetition 482
+) = 58
+sendto(3, "483\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "483\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.065 milli"..., 58Round trip time was  0.065 milliseconds in repetition 483
+) = 58
+sendto(3, "484\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "484\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.064 milli"..., 58Round trip time was  0.064 milliseconds in repetition 484
+) = 58
+sendto(3, "485\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "485\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.065 milli"..., 58Round trip time was  0.065 milliseconds in repetition 485
+) = 58
+sendto(3, "486\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "486\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.065 milli"..., 58Round trip time was  0.065 milliseconds in repetition 486
+) = 58
+sendto(3, "487\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "487\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.064 milli"..., 58Round trip time was  0.064 milliseconds in repetition 487
+) = 58
+sendto(3, "488\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "488\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.065 milli"..., 58Round trip time was  0.065 milliseconds in repetition 488
+) = 58
+sendto(3, "489\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "489\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.064 milli"..., 58Round trip time was  0.064 milliseconds in repetition 489
+) = 58
+sendto(3, "490\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "490\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.065 milli"..., 58Round trip time was  0.065 milliseconds in repetition 490
+) = 58
+sendto(3, "491\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "491\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.064 milli"..., 58Round trip time was  0.064 milliseconds in repetition 491
+) = 58
+sendto(3, "492\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "492\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.064 milli"..., 58Round trip time was  0.064 milliseconds in repetition 492
+) = 58
+sendto(3, "493\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "493\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.065 milli"..., 58Round trip time was  0.065 milliseconds in repetition 493
+) = 58
+sendto(3, "494\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "494\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.067 milli"..., 58Round trip time was  0.067 milliseconds in repetition 494
+) = 58
+sendto(3, "495\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "495\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.065 milli"..., 58Round trip time was  0.065 milliseconds in repetition 495
+) = 58
+sendto(3, "496\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "496\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.064 milli"..., 58Round trip time was  0.064 milliseconds in repetition 496
+) = 58
+sendto(3, "497\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "497\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.065 milli"..., 58Round trip time was  0.065 milliseconds in repetition 497
+) = 58
+sendto(3, "498\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "498\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.065 milli"..., 58Round trip time was  0.065 milliseconds in repetition 498
+) = 58
+sendto(3, "499\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "499\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.064 milli"..., 58Round trip time was  0.064 milliseconds in repetition 499
+) = 58
+sendto(3, "500\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "500\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.065 milli"..., 58Round trip time was  0.065 milliseconds in repetition 500
+) = 58
+sendto(3, "501\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, 0, NULL, 0) = 100
+recvfrom(3, "501\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 100, MSG_WAITALL, NULL, NULL) = 100
+write(1, "Round trip time was  0.145 milli"..., 58Round trip time was  0.145 milliseconds in repetition 501
+) = 58
+clock_getres(CLOCK_MONOTONIC, {0, 1})   = 0
+sysinfo({uptime=12862, loads=[7520, 12608, 14080], totalram=16203296768, freeram=11672920064, sharedram=491323392, bufferram=104747008, totalswap=16550195200, freeswap=16550195200, procs=538, totalhigh=0, freehigh=0, mem_unit=1}) = 0
+write(1, "\n", 1
+)                       = 1
+write(1, " ... clock resolution was 1e-06\n", 32 ... clock resolution was 1e-06
+) = 32
+write(1, "UDP Ping:  Statistics over 501 r"..., 65UDP Ping:  Statistics over 501 repetitions of 100 byte messages
+
+) = 65
+write(1, "RTT : percentile 10: 0.051976, m"..., 112RTT : percentile 10: 0.051976, median: 0.062121, percentile 90: 0.140708, average: 0.227896, variance: 3.59594
+
+) = 112
+write(1, "RTT histogram:\n", 15RTT histogram:
+)        = 15
+write(1, "0.0473035 497\n", 140.0473035 497
+)         = 14
+write(1, "1.6006 1\n", 91.6006 1
+)               = 9
+write(1, "3.15389 0\n", 103.15389 0
+)             = 10
+write(1, "4.70718 0\n", 104.70718 0
+)             = 10
+write(1, "6.26048 0\n", 106.26048 0
+)             = 10
+write(1, "7.81377 0\n", 107.81377 0
+)             = 10
+write(1, "9.36706 1\n", 109.36706 1
+)             = 10
+write(1, "10.9204 0\n", 1010.9204 0
+)             = 10
+write(1, "12.4736 0\n", 1012.4736 0
+)             = 10
+write(1, "14.0269 0\n", 1014.0269 0
+)             = 10
+write(1, "15.5802 0\n", 1015.5802 0
+)             = 10
+write(1, "17.1335 0\n", 1017.1335 0
+)             = 10
+write(1, "18.6868 0\n", 1018.6868 0
+)             = 10
+write(1, "20.2401 0\n", 1020.2401 0
+)             = 10
+write(1, "21.7934 0\n", 1021.7934 0
+)             = 10
+write(1, "23.3467 0\n", 1023.3467 0
+)             = 10
+write(1, "24.9 0\n", 724.9 0
+)                 = 7
+write(1, "26.4533 0\n", 1026.4533 0
+)             = 10
+write(1, "28.0066 1\n", 1028.0066 1
+)             = 10
+write(1, "29.5599 0\n", 1029.5599 0
+)             = 10
+write(1, "31.1132 1\n", 1031.1132 1
+)             = 10
+write(1, "   median Throughput : 3219.52 K"..., 73   median Throughput : 3219.52 KB/s   overall Throughput : 877.593 KB/s
+
+) = 73
+close(3)                                = 0
+exit_group(0)                           = ?
++++ exited with 0 +++

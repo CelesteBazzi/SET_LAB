@@ -1,5 +1,6 @@
 # Another crappy repository!
-This repository contains all my project for the *Trasmission and Processing System* class I'm currently attending!
+This repository contains all our project for the *Trasmission and Processing System* class we're currently attending!
+##### **NB**: ~~strikethrough~~ source code are not implemented yet;
 
 ## Project's list:
 ### 1. fork and exec:
@@ -12,10 +13,24 @@ This repository contains all my project for the *Trasmission and Processing Syst
    - [lab1_24](forknexec/lab1_24.c)**(wip)**: performs `ps aux | grep bash` using the [pipe(2)](http://man7.org/linux/man-pages/man2/pipe.2.html) system call. 
 
 ### 2. ping-pong:
-This project is a bit more complicated, it consist of a tcp client, a udp client and a server [pong]();
-- [tcp_ping](pingpong/tcp_ping.c): (usage `server_address server port size ripetition`)
+This project is a bit more complicated, it consist of a tcp client, a udp client and a server:
+- [tcp_ping](pingpong/tcp_ping/tcp_ping.c): (usage `tcp_ping server_address server port size ripetition`)
    implement a tcp client that 
    - uses [getaddrinfo(3)](http://man7.org/linux/man-pages/man3/getaddrinfo.3.html) to obtain server's address in binary form;
    - uses [socket(2)](http://man7.org/linux/man-pages/man2/socket.2.html) to create a socket; 
    - uses [connect(2)](http://man7.org/linux/man-pages/man2/connect.2.html) to link the socket to the server's address and port;
-   - send and receive back data from server with the [send(2)](http://man7.org/linux/man-pages/man2/send.2.html) and [recv(2)](http://man7.org/linux/man-pages/man2/recv.2.html) system call;
+   - send and receive back data from server with the [send(2)](http://man7.org/linux/man-pages/man2/send.2.html) and [recv(2)](http://man7.org/linustrikex/man-pages/man2/recv.2.html) system call;
+- [udp_ping](pingpong/udp_ping/udp_ping.c)**([wip](https://github.com/non-sono-bello-ma-patcho/SET_LAB/pull/2))**: (usage `udp_ping server_address server_port size ripetition`)
+   - implement a udp client similarly to tcp client;
+- [server_pong](pingpong/pong_server/pong_server.c): (usage `serverpong PORT`)
+   - create a new socket with [socket(2)](http://man7.org/linux/man-pages/man2/socket.2.html);
+   - associate socket to a port using [bind(2)](http://man7.org/linux/man-pages/man2/bind.2.html);
+   - notify the OS the availability to listen to request using [listen(2)](http://man7.org/linux/man-pages/man2/listen.2.html);
+   - accept client request with [accept(2)](http://man7.org/linux/man-pages/man2/accept.2.html)*;
+   - send and receive data using auxiliar socket opened by accept();
+   - close auxiliary socket with [shutdwon(2)](http://man7.org/linux/man-pages/man2/shutdown.2.html) and [close(2)](http://man7.org/linux/man-pages/man2/close.2.html);
+- [auxiliar libraries](pingpong/pingpong_lib);
+- [shell scripts](pingpong/scripts):
+   - [mkfile.bash](pingpong/scripts/mkfile.bash)(usage`mkfile.bash <min dimension> <max dimension for udp message> <max dimension for tcp message> <ripetitions>`) generates throughtput diagrams basing on message dimension for both udp and tcp client;
+   - [banda_latenza_graph.bash](pingpong/scripts/banda_latenza_graph.bash) generates a .png file;
+\* *actually accept() create a new socket on server (connected with client) while original socket(the one used for negotiating connection), remains on **listening status** so that can be used for accept other connection requests on the same server's port*.
